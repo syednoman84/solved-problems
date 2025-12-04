@@ -2,8 +2,20 @@ import java.util.*;
 
 class GroupAnagrams {
     /**
-     * Problem: Group anagrams together from an array of strings
-     * Example: ["eat","tea","tan","ate","nat","bat"] -> [["bat"],["nat","tan"],["ate","eat","tea"]]
+     * Problem:
+     *    Group anagrams together from an array of strings.
+     *    Anagrams are words or phrases formed by rearranging the letters of another word,
+     *    using all original letters exactly once.
+     *
+     * Example 1:
+     *   Input: strs = ["eat","tea","tan","ate","nat","bat"]
+     *   Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+     *
+     * Explanation:
+     *
+     *   There is no string in strs that can be rearranged to form "bat".
+     *   The strings "nat" and "tan" are anagrams as they can be rearranged to form each other.
+     *   The strings "ate", "eat", and "tea" are anagrams as they can be rearranged to form each other.
      * 
      * Solution: Use sorted string as key to group anagrams
      * - Anagrams have identical characters, so sorting produces same key
