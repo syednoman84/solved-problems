@@ -3,10 +3,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class ContainsDuplicate {
-    public boolean hasDuplicateViaStreams(int[] nums) {
-        return Arrays.stream(nums).distinct().count() < nums.length;
-    }
-
+    /**
+     * Optimized solution using HashSet for O(1) lookups
+     * Time: O(n) average, Space: O(n)
+     * Key advantage: Early termination when duplicate found
+     */
     public boolean hasDuplicate(int[] nums) {
 
         Set<Integer> seen = new HashSet<>();
@@ -18,5 +19,10 @@ public class ContainsDuplicate {
             seen.add(num);
         }
         return false;
+    }
+
+    public boolean hasDuplicateViaStreams(int[] nums) {
+
+        return Arrays.stream(nums).distinct().count() < nums.length;
     }
 }
