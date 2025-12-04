@@ -1,6 +1,17 @@
 import java.util.*;
 
 class GroupAnagrams {
+    /**
+     * Problem: Group anagrams together from an array of strings
+     * Example: ["eat","tea","tan","ate","nat","bat"] -> [["bat"],["nat","tan"],["ate","eat","tea"]]
+     * 
+     * Solution: Use sorted string as key to group anagrams
+     * - Anagrams have identical characters, so sorting produces same key
+     * - HashMap groups strings with same sorted key
+     * 
+     * Time: O(n × m log m) where n=strings count, m=avg string length
+     * Space: O(n × m) for storing all strings and keys
+     */
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
 
@@ -9,11 +20,7 @@ class GroupAnagrams {
             Arrays.sort(chars);
             String sortedWord = new String(chars);
 
-            if (!map.containsKey(sortedWord)) {
-                map.put(sortedWord, new ArrayList<>());
-            }
-
-            map.get(sortedWord).add(word);
+            map.computeIfAbsent(sortedWord, k -> new ArrayList<>()).add(word);
         }
 
         return new ArrayList<>(map.values());
