@@ -1,0 +1,60 @@
+/*
+ * 36. Valid Sudoku
+ * Medium
+ * 
+ * Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+ * 
+ * - Each row must contain the digits 1-9 without repetition.
+ * - Each column must contain the digits 1-9 without repetition.
+ * - Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+ * 
+ * Note:
+ * - A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+ * - Only the filled cells need to be validated according to the mentioned rules.
+ * 
+ * Constraints:
+ * - board.length == 9
+ * - board[i].length == 9
+ * - board[i][j] is a digit 1-9 or '.'.
+ */
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ValidSodoku {
+    public boolean isValidSudoku(char[][] board) {
+        Set seen = new HashSet();
+        for (int i=0; i<9; ++i) {
+            for (int j=0; j<9; ++j) {
+                char number = board[i][j];
+                if (number != '.')
+                    if (!seen.add(number + " in row " + i) ||
+                        !seen.add(number + " in column " + j) ||
+                        !seen.add(number + " in block " + i/3 + "-" + j/3))
+                        return false;
+            }
+        }
+        return true;
+    }
+
+    public static void main(String[] args) {
+        ValidSodoku solution = new ValidSodoku();
+        
+        // Test case 1 - Valid sudoku board
+        char[][] board1 = {
+            {'5','3','.','.','7','.','.','.','.'},
+            {'6','.','.','1','9','5','.','.','.'},
+            {'.','9','8','.','.','.','.','6','.'},
+            {'8','.','.','.','6','.','.','.','3'},
+            {'4','.','.','8','.','3','.','.','1'},
+            {'7','.','.','.','2','.','.','.','6'},
+            {'.','6','.','.','.','.','2','8','.'},
+            {'.','.','.','4','1','9','.','.','5'},
+            {'.','.','.','.','8','.','.','7','9'}
+        };
+        boolean result1 = solution.isValidSudoku(board1);
+        boolean expected1 = true;
+        String status1 = result1 == expected1 ? "PASS" : "FAIL";
+        System.out.println("Test 1 - Expected: " + expected1 + ", Got: " + result1 + " [" + status1 + "]");
+    }
+}
