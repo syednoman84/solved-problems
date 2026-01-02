@@ -94,7 +94,7 @@
 3. K Closest Points to Origin	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/HeapPriorityQueue/KClosestPointsToOrigin.java)
 4. Kth Largest Element In An Array	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/HeapPriorityQueue/KthLargestElementInAnArray.java)
 5. Task Scheduler	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/HeapPriorityQueue/TaskScheduler.java)
-6. Design Twitter	 
+6. Design Twitter	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/HeapPriorityQueue/DesignTwitter.java)	 
 7. Find Median From Data Stream	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/HeapPriorityQueue/FindMedianFromDataStream.java)
 
 ## 10. Backtracking 
@@ -155,13 +155,13 @@
 2. Longest Common Subsequence	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/LongestCommonSubsequence.java)
 3. Best Time to Buy And Sell Stock With Cooldown	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/BestTimeToBuyAndSellStockWithCooldown.java)
 4. Coin Change II	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/CoinChangeII.java)
-5. Target Sum	 
-6. Interleaving String	 
+5. Target Sum	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/TargetSum.java)	 
+6. Interleaving String	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/InterleavingString.java)	 
 7. Longest Increasing Path In a Matrix	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/LongestIncreasingPathInAMatrix.java)
 8. Distinct Subsequences	 [Solution]()
 9. Edit Distance	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/EditDistance.java)
-10. Burst Balloons	 
-11. Regular Expression Matching	 
+10. Burst Balloons	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/BurstBalloons.java)	 
+11. Regular Expression Matching	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/DynamicProgrammingII/RegularExpressionMatching.java)	 
 
 ## 15. Greedy 
 
@@ -181,7 +181,7 @@
 3. Non Overlapping Intervals	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/Intervals/NonOverlappingIntervals.java)
 4. Meeting Rooms	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/Intervals/MeetingRooms.java)
 5. Meeting Rooms II	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/Intervals/MeetingRoomsII.java)
-6. Minimum Interval to Include Each Query	 
+6. Minimum Interval to Include Each Query  [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/Intervals/MinimumIntervalToIncludeEachQuery.java)	 
 
 ## 17. Math & Geometry 
 
@@ -192,7 +192,7 @@
 5. Plus One	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/MathGeometry/PlusOne.java)
 6. Pow(x, n)	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/MathGeometry/PowXN.java)
 7. Multiply Strings	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/MathGeometry/MultiplyStrings.java)
-8. Detect Squares	 
+8. Detect Squares	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/MathGeometry/DetectSquares.java)	 
 
 ## 18. Bit Manipulation 
 
