@@ -202,7 +202,7 @@
 4. Reverse Bits	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BitManipulation/ReverseBits.java)
 5. Missing Number	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BitManipulation/MissingNumber.java)
 6. Sum of Two Integers	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BitManipulation/SumOfTwoIntegers.java)
-7. Reverse Integer
+7. Reverse Integer	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BitManipulation/ReverseInteger.java)
 
 ## 19. Misc-DSA (Not from Neetcode)
 
