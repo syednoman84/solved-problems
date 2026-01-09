@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class MaxDepthOfBinaryTree {
     /**
      * 104. Maximum Depth of Binary Tree

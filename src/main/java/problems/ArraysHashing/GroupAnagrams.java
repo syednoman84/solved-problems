@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 49. Group Anagrams
  * Medium

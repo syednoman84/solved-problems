@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class SameTree {
     /**
      * 100. Same Tree

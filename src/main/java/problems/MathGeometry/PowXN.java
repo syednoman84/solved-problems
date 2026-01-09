@@ -1,3 +1,5 @@
+package problems.MathGeometry;
+
 /**
  * [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
  * Medium

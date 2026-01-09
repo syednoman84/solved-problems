@@ -1,3 +1,5 @@
+package problems.MiscDSA;
+
 /**
  * Bellman-Ford Algorithm for Single Source Shortest Path
  *

@@ -1,3 +1,5 @@
+package problems.BinarySearch;
+
 /*
  * 875. Koko Eating Bananas
  * Medium

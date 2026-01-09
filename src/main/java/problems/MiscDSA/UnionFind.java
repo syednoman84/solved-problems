@@ -1,3 +1,5 @@
+package problems.MiscDSA;
+
 /**
  * Union Find (Disjoint Set Union) Data Structure
  *

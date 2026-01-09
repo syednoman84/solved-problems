@@ -1,3 +1,5 @@
+package problems.Intervals;
+
 /**
  * [919 · Meeting Rooms II](https://www.lintcode.com/problem/919/)
  * Medium

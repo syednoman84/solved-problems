@@ -1,3 +1,5 @@
+package problems.Intervals;
+
 /**
  * [920 · Meeting Rooms](https://www.lintcode.com/problem/920/)
  * Easy

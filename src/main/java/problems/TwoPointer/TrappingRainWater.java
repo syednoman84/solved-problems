@@ -1,3 +1,5 @@
+package problems.TwoPointer;
+
 /*
  * 42. Trapping Rain Water
  * Hard

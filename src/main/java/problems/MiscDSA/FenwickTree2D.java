@@ -1,3 +1,5 @@
+package problems.MiscDSA;
+
 /**
  * 2D Fenwick Tree (Binary Indexed Tree) Data Structure
  *

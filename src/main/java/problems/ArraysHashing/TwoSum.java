@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 1. Two Sum
  * Easy

@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 128. Longest Consecutive Sequence
  * Medium

@@ -1,3 +1,5 @@
+package problems.BinarySearch;
+
 /*
  * 33. Search in Rotated Sorted Array
  * Medium

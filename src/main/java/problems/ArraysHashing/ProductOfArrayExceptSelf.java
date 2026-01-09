@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 238. Product of Array Except Self
  * Medium

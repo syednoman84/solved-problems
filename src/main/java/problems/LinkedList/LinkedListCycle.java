@@ -1,3 +1,5 @@
+package problems.LinkedList;
+
 /*
  * 141. Linked List Cycle
  * Easy

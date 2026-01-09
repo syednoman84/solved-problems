@@ -1,3 +1,5 @@
+package problems.HeapPriorityQueue;
+
 public class TaskScheduler {
     /**
      * [621. Task Scheduler](https://leetcode.com/problems/task-scheduler/)

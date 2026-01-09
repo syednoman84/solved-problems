@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class DiameterOfABinaryTree {
     /**
      * 543. Diameter of Binary Tree

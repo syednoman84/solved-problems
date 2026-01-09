@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 242. Valid Anagram
  * Easy

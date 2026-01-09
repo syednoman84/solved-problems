@@ -1,3 +1,5 @@
+package problems.LinkedList;
+
 /*
  * 287. Find the Duplicate Number
  * Medium

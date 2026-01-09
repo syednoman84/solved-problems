@@ -1,3 +1,5 @@
+package problems.Stack;
+
 /*
  * 84. Largest Rectangle in Histogram
  * Hard

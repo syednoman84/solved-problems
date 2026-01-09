@@ -1,3 +1,5 @@
+package problems.MiscDSA;
+
 /**
  * Dijkstra's Algorithm for Single Source Shortest Path
  *

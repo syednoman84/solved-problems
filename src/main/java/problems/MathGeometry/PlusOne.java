@@ -1,3 +1,5 @@
+package problems.MathGeometry;
+
 /**
  * [66. Plus One](https://leetcode.com/problems/plus-one/)
  * Easy

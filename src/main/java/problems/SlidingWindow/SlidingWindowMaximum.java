@@ -1,3 +1,5 @@
+package problems.SlidingWindow;
+
 /*
  * 239. Sliding Window Maximum
  * Hard

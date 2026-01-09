@@ -1,3 +1,5 @@
+package problems.BinarySearch;
+
 /*
  * 74. Search a 2D Matrix
  * Medium

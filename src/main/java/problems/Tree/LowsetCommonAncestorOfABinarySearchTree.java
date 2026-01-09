@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class LowsetCommonAncestorOfABinarySearchTree {
     /**
      * 235. Lowest Common Ancestor of a Binary Search Tree

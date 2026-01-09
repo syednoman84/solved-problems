@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 36. Valid Sudoku
  * Medium

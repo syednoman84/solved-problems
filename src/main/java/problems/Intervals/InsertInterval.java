@@ -1,3 +1,5 @@
+package problems.Intervals;
+
 /**
  * [57. Insert Interval](https://leetcode.com/problems/insert-interval/)
  * Medium

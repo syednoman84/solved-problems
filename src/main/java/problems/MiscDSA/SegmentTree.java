@@ -1,3 +1,5 @@
+package problems.MiscDSA;
+
 /**
  * Segment Tree Data Structure
  *

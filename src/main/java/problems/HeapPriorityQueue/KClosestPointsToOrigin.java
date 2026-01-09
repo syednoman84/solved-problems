@@ -1,3 +1,5 @@
+package problems.HeapPriorityQueue;
+
 import java.util.PriorityQueue;
 
 public class KClosestPointsToOrigin {

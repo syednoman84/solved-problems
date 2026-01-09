@@ -1,3 +1,5 @@
+package problems.SlidingWindow;
+
 /*
  * 567. Permutation in String
  * Medium

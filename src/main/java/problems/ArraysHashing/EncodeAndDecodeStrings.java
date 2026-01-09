@@ -1,3 +1,5 @@
+package problems.ArraysHashing;
+
 /*
  * 659 · Encode and Decode Strings
  * 

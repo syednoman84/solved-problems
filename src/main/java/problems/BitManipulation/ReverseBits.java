@@ -1,3 +1,5 @@
+package problems.BitManipulation;
+
 /**
  * [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)
  * Easy

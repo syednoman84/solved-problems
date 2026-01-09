@@ -1,3 +1,5 @@
+package problems.Trie;
+
 public class DesignAddandSearchWordDataStructure {
     /**
      * [211. Design Add and Search Words Data Structure]()

@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class BalancedBinaryTree {
     /**
      * 110. Balanced Binary Tree

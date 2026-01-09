@@ -1,8 +1,9 @@
+package problems.HeapPriorityQueue;
+
 import java.util.Collections;
 import java.util.PriorityQueue;
 
-public class LastStoneWeight {
-    /**
+/**
      * 1046. Last Stone Weight
      * Easy
      * 
@@ -35,6 +36,7 @@ public class LastStoneWeight {
      * Time Complexity: O(nlogn)
      * Space Complexity: O(n)
      */
+public class LastStoneWeight {
     public int lastStoneWeight(int[] stones) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder()); // max heap
         

@@ -1,3 +1,5 @@
+package problems.SlidingWindow;
+
 /*
  * 424. Longest Repeating Character Replacement
  * Medium

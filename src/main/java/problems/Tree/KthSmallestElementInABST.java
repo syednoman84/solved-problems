@@ -1,3 +1,5 @@
+package problems.Tree;
+
 public class KthSmallestElementInABST {
     /**
      * 230. Kth Smallest Element in a BST
