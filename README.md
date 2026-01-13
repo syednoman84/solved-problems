@@ -49,7 +49,7 @@
 6. Time Based Key Value Store	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BinarySearch/TimeBasedKeyValueStore.java)
 7. Median of Two Sorted Arrays	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/BinarySearch/MedianOfTwoSortedArrays.java)
 
-## 6. Lined List 
+## 6. Linked List 
 
 1. Reverse Linked List	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/LinkedList/ReverseLinkedList.java)
 2. Merge Two Sorted Lists	 [Solution](https://github.com/syednoman84/solved-problems/tree/master/src/main/java/problems/LinkedList/MergeTwoSortedLists.java)
