@@ -39,8 +39,17 @@ public class MinimumIntervalToIncludeEachQuery {
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
         PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
         Map<Integer, Integer> res = new HashMap<>();
+        
+        // Create array of query indices sorted by query value
+        Integer[] queryIndices = new Integer[queries.length];
+        for (int j = 0; j < queries.length; j++) {
+            queryIndices[j] = j;
+        }
+        Arrays.sort(queryIndices, (a, b) -> Integer.compare(queries[a], queries[b]));
+        
         int i = 0;
-        for (int q : Arrays.stream(queries).sorted().toArray()) {
+        for (int idx : queryIndices) {
+            int q = queries[idx];
             while (i < intervals.length && intervals[i][0] <= q) {
                 int l = intervals[i][0];
                 int r = intervals[i][1];
@@ -53,10 +62,37 @@ public class MinimumIntervalToIncludeEachQuery {
             }
             res.put(q, minHeap.isEmpty() ? -1 : minHeap.peek()[0]);
         }
+        
         int[] result = new int[queries.length];
         for (int j = 0; j < queries.length; j++) {
             result[j] = res.get(queries[j]);
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        MinimumIntervalToIncludeEachQuery solution = new MinimumIntervalToIncludeEachQuery();
+        
+        // Test the failing case
+        int[][] intervals = {{2,3},{2,5},{1,8},{20,25}};
+        int[] queries = {2,19,5};
+        int[] result = solution.minInterval(intervals, queries);
+        
+        System.out.print("Result: [");
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]);
+            if (i < result.length - 1) System.out.print(",");
+        }
+        // Test the third case
+        int[][] intervals2 = {{1,4},{2,4},{3,6},{4,4}};
+        int[] queries2 = {5};
+        int[] result2 = solution.minInterval(intervals2, queries2);
+        
+        System.out.print("Result2: [");
+        for (int i = 0; i < result2.length; i++) {
+            System.out.print(result2[i]);
+            if (i < result2.length - 1) System.out.print(",");
+        }
+        System.out.println("]");
     }
 }

@@ -73,11 +73,11 @@ public class MeetingRoomsII {
     public static void main(String[] args) {
         MeetingRoomsII solution = new MeetingRoomsII();
         
-        // Test case 1: intervals = [(2,7)]
-        int[][] intervals1 = {{2, 7}};
-        int result1 = solution.minMeetingRooms(intervals1);
-        int expected1 = 1;
-        String status1 = result1 == expected1 ? "PASS" : "FAIL";
-        System.out.println("Test 1 - Expected: " + expected1 + ", Got: " + result1 + " [" + status1 + "]");
+        // Test case 2: intervals = [(9,10),(4,9),(4,17)]
+        int[][] intervals2 = {{9,10},{4,9},{4,17}};
+        int result2 = solution.minMeetingRooms(intervals2);
+        int expected2 = 3;
+        String status2 = result2 == expected2 ? "PASS" : "FAIL";
+        System.out.println("Test 2 - Expected: " + expected2 + ", Got: " + result2 + " [" + status2 + "]");
     }
 }

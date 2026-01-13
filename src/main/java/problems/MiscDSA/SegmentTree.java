@@ -18,8 +18,8 @@ package problems.MiscDSA;
  * - Space Complexity: O(n)
  */
 public class SegmentTree {
-    private int[] st, A;
-    private int n;
+    int[] st, A;
+    int n;
     
     private int left(int p) {
         return p << 1;
